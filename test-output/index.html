@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite1">
+              <span class="suite-name border-passed">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
+                    <span>D:\work\workplace\webUITestPro\src\webtest\java\com\web\testcase\testSuite1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.web.testcase.ItemManageTest" hash-for-method="addBuilding(分区测试-楼栋, 分区测试-楼栋别名, [[1, 1]], 0, 楼栋添加成功)">addBuilding(分区测试-楼栋, 分区测试-楼栋别名, [[1, 1]], 0, 楼栋添加成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.web.testcase.ItemManageTest" hash-for-method="addComunity(分区测试, 分区测试别名, [[2, 1], [3, 2]], 0, 分区添加成功)">addComunity(分区测试, 分区测试别名, [[2, 1], [3, 2]], 0, 分区添加成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.web.testcase.ItemManageTest" hash-for-method="addDoor(分区测试-楼栋-单元-门牌号, 分区测试-楼栋别名-单元别名-门牌号别名, 0, 门牌添加成功)">addDoor(分区测试-楼栋-单元-门牌号, 分区测试-楼栋别名-单元别名-门牌号别名, 0, 门牌添加成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.web.testcase.ItemManageTest" hash-for-method="addUnit(分区测试-楼栋-单元, 分区测试-楼栋别名-单元别名, [[1, 1]], 0, 单元添加成功)">addUnit(分区测试-楼栋-单元, 分区测试-楼栋别名-单元别名, [[1, 1]], 0, 单元添加成功)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.web.testcase.LoginTest" hash-for-method="login(88888888888, 123456, 当前社区：贵阳·宏立城·花果园)">login(88888888888, 123456, 当前社区：贵阳·宏立城·花果园)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.web.testcase.PropertyPayManageTest" hash-for-method="searchPayMent(2017-07-25, 2017-07-26, U区, 9栋, 1单元3205, , 18813866764)">searchPayMent(2017-07-25, 2017-07-26, U区, 9栋, 1单元3205, , 18813866764)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.web.testcase.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(88888888888, 123456, 当前社区：贵阳·宏立城·花果园)">
+                  </a> <!-- login(88888888888, 123456, 当前社区：贵阳·宏立城·花果园) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(88888888888, 123456, 当前社区：贵阳·宏立城·花果园)</span>
+                  <em>
+(正确的用户信息登录)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.web.testcase.ItemManageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBuilding(分区测试-楼栋, 分区测试-楼栋别名, [[1, 1]], 0, 楼栋添加成功)">
+                  </a> <!-- addBuilding(分区测试-楼栋, 分区测试-楼栋别名, [[1, 1]], 0, 楼栋添加成功) -->
+                  <span class="method-name">addBuilding</span>
+                  <span class="parameters">(分区测试-楼栋, 分区测试-楼栋别名, [[1, 1]], 0, 楼栋添加成功)</span>
+                  <em>
+(分区添加楼栋测试)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addComunity(分区测试, 分区测试别名, [[2, 1], [3, 2]], 0, 分区添加成功)">
+                  </a> <!-- addComunity(分区测试, 分区测试别名, [[2, 1], [3, 2]], 0, 分区添加成功) -->
+                  <span class="method-name">addComunity</span>
+                  <span class="parameters">(分区测试, 分区测试别名, [[2, 1], [3, 2]], 0, 分区添加成功)</span>
+                  <em>
+(添加分区测试)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDoor(分区测试-楼栋-单元-门牌号, 分区测试-楼栋别名-单元别名-门牌号别名, 0, 门牌添加成功)">
+                  </a> <!-- addDoor(分区测试-楼栋-单元-门牌号, 分区测试-楼栋别名-单元别名-门牌号别名, 0, 门牌添加成功) -->
+                  <span class="method-name">addDoor</span>
+                  <span class="parameters">(分区测试-楼栋-单元-门牌号, 分区测试-楼栋别名-单元别名-门牌号别名, 0, 门牌添加成功)</span>
+                  <em>
+(分区-楼栋-单元添加门牌测试)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addUnit(分区测试-楼栋-单元, 分区测试-楼栋别名-单元别名, [[1, 1]], 0, 单元添加成功)">
+                  </a> <!-- addUnit(分区测试-楼栋-单元, 分区测试-楼栋别名-单元别名, [[1, 1]], 0, 单元添加成功) -->
+                  <span class="method-name">addUnit</span>
+                  <span class="parameters">(分区测试-楼栋-单元, 分区测试-楼栋别名-单元别名, [[1, 1]], 0, 单元添加成功)</span>
+                  <em>
+(分区-楼栋添加单元测试)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.web.testcase.PropertyPayManageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPayMent(2017-07-25, 2017-07-26, U区, 9栋, 1单元3205, , 18813866764)">
+                  </a> <!-- searchPayMent(2017-07-25, 2017-07-26, U区, 9栋, 1单元3205, , 18813866764) -->
+                  <span class="method-name">searchPayMent</span>
+                  <span class="parameters">(2017-07-25, 2017-07-26, U区, 9栋, 1单元3205, , 18813866764)</span>
+                  <em>
+(查找缴费记录)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\work\workplace\webUITestPro\src\webtest\java\com\web\testcase\testSuite1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite1&quot;&gt;
+  &lt;parameter name=&quot;browserDriverUrl&quot; value=&quot;D:\work\workplace\webUITestPro\browserDriver\chromedriver.exe&quot;/&gt;
+  &lt;parameter name=&quot;waitTime&quot; value=&quot;20&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;http://58.42.231.231:59193/zmkmglYl/index.jsp&quot;/&gt;
+  &lt;parameter name=&quot;browserType&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test name=&quot;test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.web.testcase.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.web.testcase.ItemManageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;addComunity&quot;/&gt;
+          &lt;include name=&quot;addBuilding&quot;/&gt;
+          &lt;include name=&quot;addUnit&quot;/&gt;
+          &lt;include name=&quot;addDoor&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.web.testcase.ItemManageTest --&gt;
+      &lt;class name=&quot;com.web.testcase.PropertyPayManageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addComunity')
+data.setCell(0, 2, 'com.web.testcase.ItemManageTest')
+data.setCell(0, 3, 41791);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'com.web.testcase.LoginTest')
+data.setCell(1, 3, 38743);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchPayMent')
+data.setCell(2, 2, 'com.web.testcase.PropertyPayManageTest')
+data.setCell(2, 3, 11968);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addUnit')
+data.setCell(3, 2, 'com.web.testcase.ItemManageTest')
+data.setCell(3, 3, 6362);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addBuilding')
+data.setCell(4, 2, 'com.web.testcase.ItemManageTest')
+data.setCell(4, 3, 5910);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addDoor')
+data.setCell(5, 2, 'com.web.testcase.ItemManageTest')
+data.setCell(5, 3, 5728);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.web.testcase.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">errorLogin</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.web.testcase.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome, D:\work\workplace\webUITestPro\browserDriver\chromedriver.exe, 20, http://58.42.231.231:5919...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">8337 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login(88888888888, 123456, 当前社区：贵阳·宏立城·花果园)</span>
+                <span class="method-start">8341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">47088 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.web.testcase.ItemManageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome, D:\work\workplace\webUITestPro\browserDriver\chromedriver.exe, 20, http://58.42.231.231:5919...)</span>
+                <span class="method-start">47090 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">47404 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addComunity(分区测试, 分区测试别名, [[2, 1], [3, 2]], 0, 分区添加成功)</span>
+                <span class="method-start">47406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">89224 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addBuilding(分区测试-楼栋, 分区测试-楼栋别名, [[1, 1]], 0, 楼栋添加成功)</span>
+                <span class="method-start">89224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">95138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addUnit(分区测试-楼栋-单元, 分区测试-楼栋别名-单元别名, [[1, 1]], 0, 单元添加成功)</span>
+                <span class="method-start">95138 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">101503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addDoor(分区测试-楼栋-单元-门牌号, 分区测试-楼栋别名-单元别名-门牌号别名, 0, 门牌添加成功)</span>
+                <span class="method-start">101503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">107233 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.web.testcase.PropertyPayManageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome, D:\work\workplace\webUITestPro\browserDriver\chromedriver.exe, 20, http://58.42.231.231:5919...)</span>
+                <span class="method-start">113998 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">114300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchPayMent(2017-07-25, 2017-07-26, U区, 9栋, 1单元3205, , 18813866764)</span>
+                <span class="method-start">114309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">126279 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.web.testcase.ItemManageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">126279 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.web.testcase.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">126280 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.web.testcase.PropertyPayManageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">128315 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

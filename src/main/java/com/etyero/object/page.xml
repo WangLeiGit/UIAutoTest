@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+	<!-- 用户信息菜单页 -->
+	<page pageName="userPage">
+		<locator type="xpth" timeOut="20" value="//*[@id='head']/div/div[1]/div">当前社区</locator>
+		<locator type="id" timeOut="20" value="headface">用户头像</locator>
+		<locator type="xpath" timeOut="20" value="//*[@id='headface']/div[2]/div[1]">切换社区</locator>
+		<locator type="xpath" timeOut="20" value="//*[@id='headface']/div[2]/div[3]">账号设置</locator>
+		<locator type="xpath" timeOut="20" value="//*[@id='headface']/div[2]/div[5]">修改密码</locator>
+		<locator type="xpath" timeOut="20" value="//*[@id='headface']/div[2]/div[7]">退出登录</locator>
+	</page>
+	
+	<!--修改密码页-->
+	<page pageName="updatePwdPage">
+	    <locator type="id" timeOut="20" value="password_id">输入旧密码</locator>
+		<locator type="id" timeOut="20" value="newPassword_id">设置新密码</locator>
+		<locator type="id" timeOut="20" value="repassword_id">重复新密码</locator>
+		<locator type="id" timeOut="20" value="dialog_tijiao">保存</locator>
+		<locator type="xpath" timeOut="20" value="//*[@id='dialog_content']/div/div[5]/a[2]">取消</locator>
+	</page>
+	
+	<!-- 登录页 -->
+	<page pageName="loginPage">
+		<locator type="id" timeOut="20" value="headLogin">登录入口</locator>
+		<locator type="id" timeOut="20" value="username_id">登录输入账号框</locator>
+		<locator type="id" timeOut="20" value="password_id">登录输入密码框</locator>
+		<locator type="id" timeOut="20" value="dialog_tijiao">登录</locator>
+		<locator type="xpath" timeOut="20" value="//*[@id='dialog_content']/div/div[4]/a[2]">取消</locator>
+		<locator type="xpath" timeOut="20" value="//*[@id='dialog_content']/div/div[4]/div/span[1]">注册新账号</locator>
+		<locator type="xpath" timeOut="20" value="//*[@id='dialog_content']/div/div[4]/div/span[2]">忘记密码</locator>
+	</page>
+	
+	<!-- 主页 -->
+	<page pageName="mainPage">
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[1]/div">设备管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[2]/div">用户管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[3]/div">访客管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[4]/div">权限管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[5]/div">商户管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[6]/div">服务到家管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[7]/div">公共服务电话管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[8]/div">公告管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[9]/div">头条咨询管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[10]/div">物业缴费管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[11]/div">投诉建议管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[12]/div">邻里互助管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[13]/div">社区管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[14]/div">交通路况管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[15]/div">配置管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[16]/div">开门记录</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div/div[17]/div">数据统计</locator>
+	</page>
+	
+	<!--设备管理页-->
+	<page pageName="itemManagePage">
+	    <locator type="linkText" timeOut="20" value="首页">首页</locator>
+		<locator type="id" timeOut="20" value="addImg">添加分区</locator>
+		<locator type="id" timeOut="20" value="searchImg">搜索分区</locator>
+		<locator type="className" timeOut="20" value="item_el">分区列表</locator>
+		<locator type="className" timeOut="20" value="smallleftBtn">编辑分区</locator>		
+	</page>
+	
+	<!--设备管理页>>分区管理页-->
+	<page pageName="item_Partition_ManagePage">
+	    <locator type="linkText" timeOut="20" value="首页">首页</locator>
+	    <locator type="linkText" timeOut="20" value="设备管理">设备管理</locator>
+		<locator type="id" timeOut="20" value="addImg">添加楼栋</locator>
+		<locator type="className" timeOut="20" value="item_el">楼栋列表</locator>
+		<locator type="className" timeOut="20" value="smallleftBtn">编辑楼栋</locator>		
+	</page>
+		
+	<!--设备管理页>>分区管理页>>楼栋管理页-->
+	<page pageName="item_Partition_building_ManagePage">
+	    <locator type="linkText" timeOut="20" value="首页">首页</locator>
+	    <locator type="linkText" timeOut="20" value="设备管理">设备管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div[1]/a[3]">所属分区</locator>
+		<locator type="id" timeOut="20" value="addImg">添加单元</locator>
+		<locator type="className" timeOut="20" value="item_el">单元列表</locator>
+		<locator type="className" timeOut="20" value="smallleftBtn">编辑单元</locator>		
+	</page>
+	
+	<!--设备管理页>>分区管理页>>楼栋管理页>>单元管理页-->
+	<page pageName="item_Partition_building_unit_ManagePage">
+	    <locator type="linkText" timeOut="20" value="首页">首页</locator>
+	    <locator type="linkText" timeOut="20" value="设备管理">设备管理</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div[1]/a[3]">所属分区</locator>
+		<locator type="xpath" timeOut="20" value="/html/body/div[2]/div[1]/a[4]">所属楼栋</locator>
+		<locator type="id" timeOut="20" value="addImg">添加门牌号</locator>
+		<locator type="className" timeOut="20" value="item_el">门牌号列表</locator>
+		<locator type="className" timeOut="20" value="smallleftBtn">编辑门牌</locator>		
+	</page>
+	<!--设备管理页>>添加分区||楼栋||单元||门牌号-->
+	<page pageName="editPage">
+	    <locator type="linkText" timeOut="20" value="首页">首页</locator>
+	    <locator type="linkText" timeOut="20" value="设备管理">设备管理</locator>
+	    <locator type="xpath" timeOut="20" value="/html/body/div[2]/div[1]/a[3]">所属分区</locator>
+	    <locator type="xpath" timeOut="20" value="/html/body/div[2]/div[1]/a[4]">所属楼栋</locator>
+	    <locator type="xpath" timeOut="20" value="/html/body/div[2]/div[1]/a[5]">所属单元</locator>
+	    <locator type="id" timeOut="20" value="name">名称</locator>
+	    <locator type="id" timeOut="20" value="alias">别名</locator>
+	    <locator type="xpath" timeOut="20" value="//*[@id='monitorListDiv']/input">添加设备</locator>
+	    <locator type="xpath" timeOut="20" value="//*[@id='dialog_content']/div/div[1]/div[2]/input">勾选门禁1</locator>
+	    <locator type="xpath" timeOut="20" value="//*[@id='dialog_content']/div/div[1]/div[2]/div[2]/input">门禁1数量</locator>
+		<locator type="xpath" timeOut="20" value="//*[@id='dialog_content']/div/div[1]/div[3]/input">勾选门禁2</locator>
+	    <locator type="xpath" timeOut="20" value="//*[@id='dialog_content']/div/div[1]/div[3]/div[2]/input">门禁2数量</locator>
+		<locator type="xpath" timeOut="20" value="//*[@id='dialog_content']/div/div[1]/div[4]/input">勾选门禁对讲机</locator>
+	    <locator type="xpath" timeOut="20" value="//*[@id='dialog_content']/div/div[1]/div[4]/div[2]/input">门禁对讲机数量</locator>
+		<locator type="xpath" timeOut="20" value="//*[@id='dialog_content']/div/div[1]/div[5]/input">勾选门锁</locator>
+	    <locator type="xpath" timeOut="20" value="//*[@id='dialog_content']/div/div[1]/div[5]/div[2]/input">门锁数量</locator>
+		 <locator type="id" timeOut="20" value="dialog_tijiao">提交设备</locator>
+	    <locator type="xpath" timeOut="20" value="//*[@id='dialog_content']/div/div[2]/a[2]">取消提交设备</locator>
+		<locator type="id" timeOut="20" value="btn_save">保存</locator>
+		<locator type="id" timeOut="20" value="btn_save2">无分区||楼栋保存</locator>
+	</page>
+
+	<!--物业缴费管理页-->
+	<page pageName="propertyPayManagePage">
+	    <locator type="linkText" timeOut="20" value="首页">首页</locator>
+	    <locator type="id" timeOut="20" value="startDate">查询开始时间</locator>
+	    <locator type="id" timeOut="20" value="endDate">查询结束时间</locator>
+		<locator type="id" timeOut="20" value="subregionDiv">显示分区</locator>
+	    <locator type="id" timeOut="20" value="subregionSelectDiv">分区下拉</locator>
+	    <locator type="className" timeOut="20" value="downItem">分区下拉项</locator>
+		<locator type="id" timeOut="20" value="buildingDiv">显示楼栋</locator>		
+	    <locator type="id" timeOut="20" value="buildingSelectDiv">楼栋下拉</locator>
+	    <locator type="className" timeOut="20" value="downItem">楼栋下拉项</locator>
+		<locator type="id" timeOut="20" value="unitDiv">显示门牌号</locator>
+		<locator type="id" timeOut="20" value="unitSelectDiv">门牌下拉</locator>
+	    <locator type="className" timeOut="20" value="downItem">门牌下拉项</locator>
+		<locator type="xpath" timeOut="20" value="//*[@id='searchForm']/div/div[2]/div[2]/div[1]">显示状态</locator>
+		<locator type="xpath" timeOut="20" value="//*[@id='searchForm']/div/div[2]/div[2]/div[2]">状态下拉</locator>
+	    <locator type="className" timeOut="20" value="downItem">状态下拉项</locator>
+		<locator type="id" timeOut="20" value="search_val">订单/手机号</locator>
+	    <locator type="className" timeOut="20" value="btn">查询</locator>
+	    <locator type="tagName" timeOut="20" value="tr">订单列表</locator>
+	    <locator type="tagName" timeOut="20" value="td">订单信息</locator>
+	</page>
+	
+	
+</map>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.web.mapper.SegmentsMapper">
+    <select id="getSegments" parameterType="String" 
+        resultType="com.web.entity.Segments">
+        select * from segments where 1=1
+		
+		<if test="name != '' and name != null">  
+          and name=#{name,jdbcType=VARCHAR}  
+        </if>  
+        <if test="alias != '' and alias != null">  
+            and alias like #{alias,jdbcType=VARCHAR}  
+        </if>
+      <!-- <if test="addrs != '' and addrs != null">  
+            and taddr in  
+            <foreach item="item" index="index" collection="addrs" open="("  
+                separator="," close=")">  
+                #{item}  
+            </foreach>  
+        </if> -->
+    </select>
+	
+	<!--<update id="updateSegments" parameterType="com.etyero.entity.Segments">
+        update Segments set userName=#{userName},userAge=#{userAge},userAddress=#{userAddress} where id=#{id}
+    </update>-->
+    
+    <delete id="deleteSegments">
+        delete from segments where name=#{name,jdbcType=VARCHAR}
+    </delete>
+</mapper>

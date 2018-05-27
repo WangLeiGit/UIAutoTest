@@ -1,0 +1,97 @@
+2017-08-28 10:01:34 [ main ] Test Start
+  2017-08-28 10:01:35 [ main ] pageName is mainPage
+  2017-08-28 10:01:35 [ main ] Test Skipped
+  2017-08-28 10:01:35 [ main ] Test Skipped
+  2017-08-28 10:01:35 [ main ] Test Skipped
+  2017-08-28 10:01:35 [ main ] Test Skipped
+  2017-08-28 10:01:38 [ main ] pageName is mainPage
+  2017-08-28 10:01:38 [ main ] Test Failure
+  2017-08-28 10:01:38 [ main ] Test Failure
+  2017-08-28 10:01:38 [ main ] Test Finish
+  2017-08-28 10:04:46 [ main ] Test Start
+  2017-08-28 10:05:03 [ main ] pageName is mainPage
+  2017-08-28 10:05:07 [ main ] pageName is loginPage
+  2017-08-28 10:05:17 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-28 10:05:17 [ main ] pageName is myPage
+  2017-08-28 10:05:18 [ main ] pageName is setUpPage
+  2017-08-28 10:05:21 [ main ] pageName is loginPage
+  2017-08-28 10:05:40 [ main ] pageName is loginPage
+  2017-08-28 10:05:40 [ main ] Test Success
+  2017-08-28 10:05:40 [ main ] pageName is loginPage
+  2017-08-28 10:05:40 [ main ] pageName is loginPage
+  2017-08-28 10:05:59 [ main ] pageName is loginPage
+  2017-08-28 10:05:59 [ main ] Test Success
+  2017-08-28 10:05:59 [ main ] pageName is loginPage
+  2017-08-28 10:06:00 [ main ] pageName is loginPage
+  2017-08-28 10:06:18 [ main ] pageName is loginPage
+  2017-08-28 10:06:20 [ main ] Test Success
+  2017-08-28 10:06:20 [ main ] pageName is loginPage
+  2017-08-28 10:06:20 [ main ] pageName is loginPage
+  2017-08-28 10:06:41 [ main ] pageName is loginPage
+  2017-08-28 10:06:52 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-28 10:06:52 [ main ] Test Success
+  2017-08-28 10:06:53 [ main ] pageName is mainPage
+  2017-08-28 10:06:53 [ main ] pageName is lifePage
+  2017-08-28 10:06:56 [ main ] pageName is propertyPayPage
+  2017-08-28 10:07:03 [ main ] Test Success
+  2017-08-28 10:07:04 [ main ] Test Finish
+  2017-08-30 11:31:23 [ main ] Test Start
+  2017-08-30 11:31:41 [ main ] pageName is mainPage
+  2017-08-30 11:31:43 [ main ] pageName is loginPage
+  2017-08-30 11:31:53 [ main ] findElement ByName:登录 failed,NoSuchElement
+  2017-08-30 11:31:53 [ main ] pageName is myPage
+  2017-08-30 11:32:03 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-30 11:32:03 [ main ] Test Failure
+  2017-08-30 11:32:06 [ main ] pageName is loginPage
+  2017-08-30 11:32:16 [ main ] findElement ByName:登录 failed,NoSuchElement
+  2017-08-30 11:32:16 [ main ] pageName is myPage
+  2017-08-30 11:32:27 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-30 11:32:27 [ main ] Test Failure
+  2017-08-30 11:32:30 [ main ] pageName is loginPage
+  2017-08-30 11:34:37 [ main ] Test Start
+  2017-08-30 11:34:55 [ main ] pageName is mainPage
+  2017-08-30 11:34:57 [ main ] pageName is loginPage
+  2017-08-30 11:35:07 [ main ] findElement ByName:登录 failed,NoSuchElement
+  2017-08-30 11:35:07 [ main ] pageName is myPage
+  2017-08-30 11:35:17 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-30 11:35:17 [ main ] Test Failure
+  2017-08-30 11:36:58 [ main ] Test Start
+  2017-08-30 11:37:16 [ main ] pageName is mainPage
+  2017-08-30 11:37:18 [ main ] pageName is loginPage
+  2017-08-30 11:37:19 [ main ] pageName is loginPage
+  2017-08-30 11:37:23 [ main ] Test Failure
+  2017-08-30 11:37:26 [ main ] pageName is loginPage
+  2017-08-30 11:37:26 [ main ] pageName is loginPage
+  2017-08-30 11:37:31 [ main ] Test Failure
+  2017-08-30 11:37:34 [ main ] pageName is loginPage
+  2017-08-30 11:37:34 [ main ] pageName is loginPage
+  2017-08-30 11:37:39 [ main ] Test Failure
+  2017-08-30 11:37:42 [ main ] Test Skipped
+  2017-08-30 11:37:44 [ main ] pageName is mainPage
+  2017-08-30 11:37:54 [ main ] findElement ById:com.neighbor:id/main_bottom_life_rb failed,NoSuchElement
+  2017-08-30 11:37:54 [ main ] Test Failure
+  2017-08-30 11:37:58 [ main ] Test Finish
+  2017-08-30 13:45:04 [ main ] Test Start
+  2017-08-30 13:45:24 [ main ] pageName is mainPage
+  2017-08-30 13:45:26 [ main ] pageName is loginPage
+  2017-08-30 13:45:27 [ main ] pageName is loginPage
+  2017-08-30 13:45:31 [ main ] Test Failure
+  2017-08-30 13:45:34 [ main ] pageName is loginPage
+  2017-08-30 13:45:34 [ main ] pageName is loginPage
+  2017-08-30 13:45:39 [ main ] Test Failure
+  2017-08-30 13:45:42 [ main ] pageName is loginPage
+  2017-08-30 13:45:42 [ main ] pageName is loginPage
+  2017-08-30 13:45:47 [ main ] Test Failure
+  2017-08-30 13:45:49 [ main ] Test Skipped
+  2017-08-30 13:45:51 [ main ] pageName is mainPage
+  2017-08-30 13:46:01 [ main ] findElement ById:com.neighbor:id/main_bottom_life_rb failed,NoSuchElement
+  2017-08-30 13:46:01 [ main ] Test Failure
+  2017-08-30 13:46:05 [ main ] Test Finish
+  2017-08-30 13:48:42 [ main ] Test Start
+  2017-08-30 13:49:00 [ main ] pageName is mainPage
+  2017-08-30 13:49:01 [ main ] pageName is loginPage
+  2017-08-30 13:49:02 [ main ] pageName is loginPage
+  2017-08-30 13:49:24 [ main ] Test Failure
+  2017-08-30 13:49:27 [ main ] pageName is loginPage
+  2017-08-30 13:49:27 [ main ] pageName is loginPage
+  

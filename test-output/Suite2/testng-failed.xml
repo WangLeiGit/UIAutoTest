@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite2]">
+  <parameter name="browserDriverUrl" value="E:\eclipseWorkSpace\webUITestPro\browserDriver\chromedriver.exe"/>
+  <parameter name="url" value="http://58.42.231.231:59193/zmkmglYl/index.jsp"/>
+  <test name="test(failed)">
+    <classes>
+      <class name="com.etyero.testcase.WebDriverDemo02">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="BeforeMethod"/>
+          <include name="afterClass"/>
+          <include name="login02" invocation-numbers="1 2"/>
+          <include name="afterTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.etyero.testcase.WebDriverDemo02 -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

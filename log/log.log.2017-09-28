@@ -1,0 +1,33 @@
+2017-09-28 18:20:12 [ main ] Test Start
+  2017-09-28 18:20:21 [ main ] pageName is loginPage
+  2017-09-28 18:20:21 [ main ] pageName is loginPage
+  2017-09-28 18:20:41 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-09-28 18:20:58 [ main ] pageName is userPage
+  2017-09-28 18:21:00 [ main ] Test Success
+  2017-09-28 18:21:00 [ main ] pageName is mainPage
+  2017-09-28 18:21:05 [ main ] pageName is itemManagePage
+  2017-09-28 18:21:11 [ main ] pageName is editPage
+  2017-09-28 18:21:42 [ main ] Test Success
+  2017-09-28 18:21:42 [ main ] pageName is mainPage
+  2017-09-28 18:21:42 [ main ] pageName is itemManagePage
+  2017-09-28 18:21:43 [ main ] pageName is item_Partition_ManagePage
+  2017-09-28 18:21:43 [ main ] pageName is editPage
+  2017-09-28 18:21:48 [ main ] Test Success
+  2017-09-28 18:21:48 [ main ] pageName is mainPage
+  2017-09-28 18:21:48 [ main ] pageName is itemManagePage
+  2017-09-28 18:21:49 [ main ] pageName is item_Partition_ManagePage
+  2017-09-28 18:21:49 [ main ] pageName is item_Partition_building_ManagePage
+  2017-09-28 18:21:50 [ main ] pageName is editPage
+  2017-09-28 18:21:54 [ main ] Test Success
+  2017-09-28 18:21:54 [ main ] pageName is mainPage
+  2017-09-28 18:21:54 [ main ] pageName is itemManagePage
+  2017-09-28 18:21:55 [ main ] pageName is item_Partition_ManagePage
+  2017-09-28 18:21:55 [ main ] pageName is item_Partition_building_ManagePage
+  2017-09-28 18:21:56 [ main ] pageName is item_Partition_building_unit_ManagePage
+  2017-09-28 18:21:56 [ main ] pageName is editPage
+  2017-09-28 18:22:00 [ main ] Test Success
+  2017-09-28 18:22:07 [ main ] pageName is mainPage
+  2017-09-28 18:22:12 [ main ] pageName is propertyPayManagePage
+  2017-09-28 18:22:19 [ main ] Test Success
+  2017-09-28 18:22:21 [ main ] Test Finish
+  

@@ -1,0 +1,645 @@
+2017-08-25 10:53:12 [ main ] Test Start
+  2017-08-25 10:53:18 [ main ] pageName is loginPage
+  2017-08-25 10:53:18 [ main ] pageName is loginPage
+  2017-08-25 10:53:38 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 10:53:46 [ main ] pageName is userPage
+  2017-08-25 10:53:47 [ main ] Test Success
+  2017-08-25 10:53:48 [ main ] pageName is mainPage
+  2017-08-25 10:53:53 [ main ] pageName is propertyPayManagePage
+  2017-08-25 10:54:18 [ main ] Test Failure
+  2017-08-25 10:54:20 [ main ] Test Finish
+  2017-08-25 10:59:26 [ main ] Test Start
+  2017-08-25 10:59:32 [ main ] pageName is loginPage
+  2017-08-25 10:59:32 [ main ] pageName is loginPage
+  2017-08-25 10:59:52 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 10:59:52 [ main ] pageName is userPage
+  2017-08-25 10:59:54 [ main ] Test Success
+  2017-08-25 10:59:54 [ main ] pageName is mainPage
+  2017-08-25 10:59:54 [ main ] pageName is itemManagePage
+  2017-08-25 10:59:55 [ main ] pageName is editPage
+  2017-08-25 10:59:58 [ main ] Test Success
+  2017-08-25 10:59:58 [ main ] pageName is mainPage
+  2017-08-25 10:59:58 [ main ] pageName is itemManagePage
+  2017-08-25 10:59:59 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 10:59:59 [ main ] pageName is editPage
+  2017-08-25 11:00:02 [ main ] Test Success
+  2017-08-25 11:00:02 [ main ] pageName is mainPage
+  2017-08-25 11:00:03 [ main ] pageName is itemManagePage
+  2017-08-25 11:00:03 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 11:00:04 [ main ] pageName is item_Partition_building_ManagePage
+  2017-08-25 11:00:04 [ main ] pageName is editPage
+  2017-08-25 11:00:07 [ main ] Test Success
+  2017-08-25 11:00:07 [ main ] pageName is mainPage
+  2017-08-25 11:00:07 [ main ] pageName is itemManagePage
+  2017-08-25 11:00:08 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 11:00:08 [ main ] pageName is item_Partition_building_ManagePage
+  2017-08-25 11:00:09 [ main ] pageName is item_Partition_building_unit_ManagePage
+  2017-08-25 11:00:09 [ main ] pageName is editPage
+  2017-08-25 11:00:12 [ main ] Test Success
+  2017-08-25 11:00:12 [ main ] pageName is mainPage
+  2017-08-25 11:00:17 [ main ] pageName is propertyPayManagePage
+  2017-08-25 11:00:19 [ main ] Test Failure
+  2017-08-25 11:00:20 [ main ] Test Finish
+  2017-08-25 11:12:14 [ main ] Test Start
+  2017-08-25 11:12:19 [ main ] pageName is loginPage
+  2017-08-25 11:12:19 [ main ] pageName is loginPage
+  2017-08-25 11:12:39 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 11:12:40 [ main ] pageName is userPage
+  2017-08-25 11:12:41 [ main ] Test Success
+  2017-08-25 11:12:41 [ main ] pageName is mainPage
+  2017-08-25 11:12:41 [ main ] pageName is itemManagePage
+  2017-08-25 11:12:42 [ main ] pageName is editPage
+  2017-08-25 11:12:45 [ main ] Test Failure
+  2017-08-25 11:12:46 [ main ] pageName is mainPage
+  2017-08-25 11:12:47 [ main ] findElement ByXpath:/html/body/div[2]/div/div[1]/div failed,NoSuchElement
+  2017-08-25 11:12:47 [ main ] Test Failure
+  2017-08-25 11:12:47 [ main ] Test Failure
+  2017-08-25 11:12:49 [ main ] Test Finish
+  2017-08-25 11:15:11 [ main ] Test Start
+  2017-08-25 11:15:16 [ main ] pageName is loginPage
+  2017-08-25 11:15:16 [ main ] pageName is loginPage
+  2017-08-25 11:15:36 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 11:15:37 [ main ] pageName is userPage
+  2017-08-25 11:15:38 [ main ] Test Success
+  2017-08-25 11:15:39 [ main ] pageName is mainPage
+  2017-08-25 11:15:39 [ main ] pageName is itemManagePage
+  2017-08-25 11:15:39 [ main ] pageName is editPage
+  2017-08-25 11:15:43 [ main ] Test Success
+  2017-08-25 11:15:43 [ main ] pageName is mainPage
+  2017-08-25 11:15:43 [ main ] pageName is itemManagePage
+  2017-08-25 11:15:44 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 11:15:44 [ main ] pageName is editPage
+  2017-08-25 11:15:48 [ main ] Test Success
+  2017-08-25 11:15:48 [ main ] pageName is mainPage
+  2017-08-25 11:15:48 [ main ] pageName is itemManagePage
+  2017-08-25 11:15:48 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 11:15:49 [ main ] pageName is item_Partition_building_ManagePage
+  2017-08-25 11:15:49 [ main ] pageName is editPage
+  2017-08-25 11:15:52 [ main ] Test Success
+  2017-08-25 11:15:52 [ main ] pageName is mainPage
+  2017-08-25 11:15:52 [ main ] pageName is itemManagePage
+  2017-08-25 11:15:53 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 11:15:53 [ main ] pageName is item_Partition_building_ManagePage
+  2017-08-25 11:15:53 [ main ] pageName is item_Partition_building_unit_ManagePage
+  2017-08-25 11:15:54 [ main ] pageName is editPage
+  2017-08-25 11:15:56 [ main ] Test Success
+  2017-08-25 11:16:03 [ main ] pageName is mainPage
+  2017-08-25 11:16:08 [ main ] pageName is propertyPayManagePage
+  2017-08-25 11:16:10 [ main ] Test Failure
+  2017-08-25 11:16:12 [ main ] Test Finish
+  2017-08-25 11:22:14 [ main ] Test Start
+  2017-08-25 11:22:20 [ main ] pageName is loginPage
+  2017-08-25 11:22:20 [ main ] pageName is loginPage
+  2017-08-25 11:22:40 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 11:22:41 [ main ] pageName is userPage
+  2017-08-25 11:22:42 [ main ] Test Success
+  2017-08-25 11:22:42 [ main ] pageName is mainPage
+  2017-08-25 11:22:42 [ main ] pageName is itemManagePage
+  2017-08-25 11:22:43 [ main ] pageName is editPage
+  2017-08-25 11:22:46 [ main ] Test Failure
+  2017-08-25 11:22:46 [ main ] pageName is mainPage
+  2017-08-25 11:22:47 [ main ] findElement ByXpath:/html/body/div[2]/div/div[1]/div failed,NoSuchElement
+  2017-08-25 11:22:47 [ main ] Test Failure
+  2017-08-25 11:22:47 [ main ] Test Failure
+  2017-08-25 11:22:48 [ main ] Test Finish
+  2017-08-25 11:25:58 [ main ] Test Start
+  2017-08-25 11:26:04 [ main ] pageName is loginPage
+  2017-08-25 11:26:04 [ main ] pageName is loginPage
+  2017-08-25 11:26:24 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 11:26:25 [ main ] pageName is userPage
+  2017-08-25 11:26:26 [ main ] Test Success
+  2017-08-25 11:26:26 [ main ] pageName is mainPage
+  2017-08-25 11:26:26 [ main ] pageName is itemManagePage
+  2017-08-25 11:26:27 [ main ] pageName is editPage
+  2017-08-25 11:26:30 [ main ] Test Success
+  2017-08-25 11:26:30 [ main ] pageName is mainPage
+  2017-08-25 11:26:30 [ main ] pageName is itemManagePage
+  2017-08-25 11:26:31 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 11:26:31 [ main ] pageName is editPage
+  2017-08-25 11:26:34 [ main ] Test Success
+  2017-08-25 11:26:34 [ main ] pageName is mainPage
+  2017-08-25 11:26:35 [ main ] pageName is itemManagePage
+  2017-08-25 11:26:35 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 11:26:35 [ main ] pageName is item_Partition_building_ManagePage
+  2017-08-25 11:26:36 [ main ] pageName is editPage
+  2017-08-25 11:26:39 [ main ] Test Success
+  2017-08-25 11:26:39 [ main ] pageName is mainPage
+  2017-08-25 11:26:39 [ main ] pageName is itemManagePage
+  2017-08-25 11:26:40 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 11:26:40 [ main ] pageName is item_Partition_building_ManagePage
+  2017-08-25 11:26:40 [ main ] pageName is item_Partition_building_unit_ManagePage
+  2017-08-25 11:26:40 [ main ] pageName is editPage
+  2017-08-25 11:26:43 [ main ] Test Success
+  2017-08-25 11:26:49 [ main ] pageName is mainPage
+  2017-08-25 11:26:54 [ main ] pageName is propertyPayManagePage
+  2017-08-25 11:30:13 [ main ] Test Start
+  2017-08-25 11:30:19 [ main ] pageName is loginPage
+  2017-08-25 11:30:19 [ main ] pageName is loginPage
+  2017-08-25 11:30:39 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 11:30:40 [ main ] pageName is userPage
+  2017-08-25 11:30:41 [ main ] Test Success
+  2017-08-25 11:30:41 [ main ] pageName is mainPage
+  2017-08-25 11:30:41 [ main ] pageName is itemManagePage
+  2017-08-25 11:30:42 [ main ] pageName is editPage
+  2017-08-25 11:30:45 [ main ] Test Success
+  2017-08-25 11:30:45 [ main ] pageName is mainPage
+  2017-08-25 11:30:45 [ main ] pageName is itemManagePage
+  2017-08-25 11:30:46 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 11:30:46 [ main ] pageName is editPage
+  2017-08-25 11:30:50 [ main ] Test Success
+  2017-08-25 11:30:50 [ main ] pageName is mainPage
+  2017-08-25 11:30:50 [ main ] pageName is itemManagePage
+  2017-08-25 11:30:50 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 11:30:51 [ main ] pageName is item_Partition_building_ManagePage
+  2017-08-25 11:30:51 [ main ] pageName is editPage
+  2017-08-25 11:30:54 [ main ] Test Success
+  2017-08-25 11:30:54 [ main ] pageName is mainPage
+  2017-08-25 11:30:54 [ main ] pageName is itemManagePage
+  2017-08-25 11:30:55 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 11:30:55 [ main ] pageName is item_Partition_building_ManagePage
+  2017-08-25 11:30:55 [ main ] pageName is item_Partition_building_unit_ManagePage
+  2017-08-25 11:30:56 [ main ] pageName is editPage
+  2017-08-25 11:30:58 [ main ] Test Success
+  2017-08-25 11:31:04 [ main ] pageName is mainPage
+  2017-08-25 11:31:09 [ main ] pageName is propertyPayManagePage
+  2017-08-25 11:34:09 [ main ] Test Start
+  2017-08-25 11:34:15 [ main ] pageName is loginPage
+  2017-08-25 11:34:15 [ main ] pageName is loginPage
+  2017-08-25 11:34:36 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 11:34:36 [ main ] pageName is userPage
+  2017-08-25 11:34:37 [ main ] Test Success
+  2017-08-25 11:34:38 [ main ] pageName is mainPage
+  2017-08-25 11:34:43 [ main ] pageName is propertyPayManagePage
+  2017-08-25 11:35:10 [ main ] Test Start
+  2017-08-25 11:35:16 [ main ] pageName is loginPage
+  2017-08-25 11:35:16 [ main ] pageName is loginPage
+  2017-08-25 11:35:36 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 11:35:37 [ main ] pageName is userPage
+  2017-08-25 11:35:38 [ main ] Test Success
+  2017-08-25 11:35:38 [ main ] pageName is mainPage
+  2017-08-25 11:35:43 [ main ] pageName is propertyPayManagePage
+  2017-08-25 11:36:47 [ main ] Test Start
+  2017-08-25 11:36:53 [ main ] pageName is loginPage
+  2017-08-25 11:36:53 [ main ] pageName is loginPage
+  2017-08-25 11:37:13 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 11:37:14 [ main ] pageName is userPage
+  2017-08-25 11:37:15 [ main ] Test Success
+  2017-08-25 11:37:15 [ main ] pageName is mainPage
+  2017-08-25 11:37:20 [ main ] pageName is propertyPayManagePage
+  2017-08-25 11:42:02 [ main ] Test Start
+  2017-08-25 11:42:08 [ main ] pageName is loginPage
+  2017-08-25 11:42:08 [ main ] pageName is loginPage
+  2017-08-25 11:42:28 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 11:42:29 [ main ] pageName is userPage
+  2017-08-25 11:42:30 [ main ] Test Success
+  2017-08-25 11:42:30 [ main ] pageName is mainPage
+  2017-08-25 11:42:35 [ main ] pageName is propertyPayManagePage
+  2017-08-25 11:44:58 [ main ] Test Failure
+  2017-08-25 11:44:59 [ main ] Test Finish
+  2017-08-25 11:52:32 [ main ] Test Start
+  2017-08-25 11:52:38 [ main ] pageName is loginPage
+  2017-08-25 11:52:38 [ main ] pageName is loginPage
+  2017-08-25 11:52:58 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 11:52:59 [ main ] pageName is userPage
+  2017-08-25 11:53:00 [ main ] Test Success
+  2017-08-25 11:53:00 [ main ] pageName is mainPage
+  2017-08-25 11:53:05 [ main ] pageName is propertyPayManagePage
+  2017-08-25 11:55:44 [ main ] Test Failure
+  2017-08-25 11:55:46 [ main ] Test Finish
+  2017-08-25 12:00:27 [ main ] Test Start
+  2017-08-25 12:00:33 [ main ] pageName is loginPage
+  2017-08-25 12:00:33 [ main ] pageName is loginPage
+  2017-08-25 12:00:53 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 12:00:53 [ main ] pageName is userPage
+  2017-08-25 12:00:54 [ main ] Test Success
+  2017-08-25 12:00:54 [ main ] pageName is mainPage
+  2017-08-25 12:01:00 [ main ] pageName is propertyPayManagePage
+  2017-08-25 12:01:01 [ main ] Test Failure
+  2017-08-25 12:01:03 [ main ] Test Finish
+  2017-08-25 13:15:59 [ main ] Test Start
+  2017-08-25 13:16:05 [ main ] pageName is loginPage
+  2017-08-25 13:16:05 [ main ] pageName is loginPage
+  2017-08-25 13:16:25 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 13:16:25 [ main ] pageName is userPage
+  2017-08-25 13:16:27 [ main ] Test Success
+  2017-08-25 13:16:27 [ main ] pageName is mainPage
+  2017-08-25 13:16:32 [ main ] pageName is propertyPayManagePage
+  2017-08-25 13:16:34 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:34 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:34 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:34 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:34 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:34 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] findElements ByTagName:tr failed,NoSuchElements
+  2017-08-25 13:16:35 [ main ] Test Success
+  2017-08-25 13:16:37 [ main ] Test Finish
+  2017-08-25 13:17:05 [ main ] Test Start
+  2017-08-25 13:17:11 [ main ] pageName is loginPage
+  2017-08-25 13:17:11 [ main ] pageName is loginPage
+  2017-08-25 13:17:31 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 13:17:31 [ main ] pageName is userPage
+  2017-08-25 13:17:33 [ main ] Test Success
+  2017-08-25 13:17:33 [ main ] pageName is mainPage
+  2017-08-25 13:17:38 [ main ] pageName is propertyPayManagePage
+  2017-08-25 13:17:40 [ main ] Test Failure
+  2017-08-25 13:17:41 [ main ] Test Finish
+  2017-08-25 13:19:31 [ main ] Test Start
+  2017-08-25 13:19:37 [ main ] pageName is loginPage
+  2017-08-25 13:19:37 [ main ] pageName is loginPage
+  2017-08-25 13:19:57 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 13:19:57 [ main ] pageName is userPage
+  2017-08-25 13:19:58 [ main ] Test Success
+  2017-08-25 13:19:59 [ main ] pageName is mainPage
+  2017-08-25 13:20:04 [ main ] pageName is propertyPayManagePage
+  2017-08-25 13:20:05 [ main ] Test Failure
+  2017-08-25 13:20:06 [ main ] Test Finish
+  2017-08-25 13:23:51 [ main ] Test Start
+  2017-08-25 13:23:57 [ main ] pageName is loginPage
+  2017-08-25 13:23:57 [ main ] pageName is loginPage
+  2017-08-25 13:24:17 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 13:24:17 [ main ] pageName is userPage
+  2017-08-25 13:24:18 [ main ] Test Success
+  2017-08-25 13:24:19 [ main ] pageName is mainPage
+  2017-08-25 13:24:24 [ main ] pageName is propertyPayManagePage
+  2017-08-25 13:24:26 [ main ] findElements ByTagName:td failed,NoSuchElements
+  2017-08-25 13:24:26 [ main ] Test Failure
+  2017-08-25 13:24:27 [ main ] Test Finish
+  2017-08-25 13:26:46 [ main ] Test Start
+  2017-08-25 13:26:52 [ main ] pageName is loginPage
+  2017-08-25 13:26:52 [ main ] pageName is loginPage
+  2017-08-25 13:27:12 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 13:27:13 [ main ] pageName is userPage
+  2017-08-25 13:27:14 [ main ] Test Success
+  2017-08-25 13:27:14 [ main ] pageName is mainPage
+  2017-08-25 13:27:19 [ main ] pageName is propertyPayManagePage
+  2017-08-25 13:27:20 [ main ] Test Failure
+  2017-08-25 13:27:22 [ main ] Test Finish
+  2017-08-25 13:28:19 [ main ] Test Start
+  2017-08-25 13:28:25 [ main ] pageName is loginPage
+  2017-08-25 13:28:25 [ main ] pageName is loginPage
+  2017-08-25 13:28:45 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 13:28:45 [ main ] pageName is userPage
+  2017-08-25 13:28:46 [ main ] Test Success
+  2017-08-25 13:28:47 [ main ] pageName is mainPage
+  2017-08-25 13:28:52 [ main ] pageName is propertyPayManagePage
+  2017-08-25 13:28:57 [ main ] Test Success
+  2017-08-25 13:28:58 [ main ] Test Finish
+  2017-08-25 13:30:54 [ main ] Test Start
+  2017-08-25 13:31:00 [ main ] pageName is loginPage
+  2017-08-25 13:31:00 [ main ] pageName is loginPage
+  2017-08-25 13:31:20 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 13:31:21 [ main ] pageName is userPage
+  2017-08-25 13:31:22 [ main ] Test Success
+  2017-08-25 13:31:22 [ main ] pageName is mainPage
+  2017-08-25 13:31:28 [ main ] pageName is propertyPayManagePage
+  2017-08-25 13:31:33 [ main ] Test Success
+  2017-08-25 13:31:34 [ main ] Test Finish
+  2017-08-25 13:31:58 [ main ] Test Start
+  2017-08-25 13:32:03 [ main ] pageName is loginPage
+  2017-08-25 13:32:03 [ main ] pageName is loginPage
+  2017-08-25 13:32:23 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 13:32:24 [ main ] pageName is userPage
+  2017-08-25 13:32:25 [ main ] Test Success
+  2017-08-25 13:32:25 [ main ] pageName is mainPage
+  2017-08-25 13:32:30 [ main ] pageName is propertyPayManagePage
+  2017-08-25 13:32:35 [ main ] Test Success
+  2017-08-25 13:32:37 [ main ] Test Finish
+  2017-08-25 13:40:16 [ main ] Test Start
+  2017-08-25 13:40:21 [ main ] pageName is loginPage
+  2017-08-25 13:40:21 [ main ] pageName is loginPage
+  2017-08-25 13:40:41 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-08-25 13:40:42 [ main ] pageName is userPage
+  2017-08-25 13:40:43 [ main ] Test Success
+  2017-08-25 13:40:43 [ main ] pageName is mainPage
+  2017-08-25 13:40:43 [ main ] pageName is itemManagePage
+  2017-08-25 13:40:44 [ main ] pageName is editPage
+  2017-08-25 13:40:48 [ main ] Test Success
+  2017-08-25 13:40:48 [ main ] pageName is mainPage
+  2017-08-25 13:40:48 [ main ] pageName is itemManagePage
+  2017-08-25 13:40:49 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 13:40:50 [ main ] pageName is editPage
+  2017-08-25 13:40:53 [ main ] Test Success
+  2017-08-25 13:40:53 [ main ] pageName is mainPage
+  2017-08-25 13:40:53 [ main ] pageName is itemManagePage
+  2017-08-25 13:40:54 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 13:40:54 [ main ] pageName is item_Partition_building_ManagePage
+  2017-08-25 13:40:54 [ main ] pageName is editPage
+  2017-08-25 13:40:57 [ main ] Test Success
+  2017-08-25 13:40:57 [ main ] pageName is mainPage
+  2017-08-25 13:40:57 [ main ] pageName is itemManagePage
+  2017-08-25 13:40:58 [ main ] pageName is item_Partition_ManagePage
+  2017-08-25 13:40:58 [ main ] pageName is item_Partition_building_ManagePage
+  2017-08-25 13:40:59 [ main ] pageName is item_Partition_building_unit_ManagePage
+  2017-08-25 13:40:59 [ main ] pageName is editPage
+  2017-08-25 13:41:02 [ main ] Test Success
+  2017-08-25 13:41:08 [ main ] pageName is mainPage
+  2017-08-25 13:41:13 [ main ] pageName is propertyPayManagePage
+  2017-08-25 13:41:18 [ main ] Test Success
+  2017-08-25 13:41:19 [ main ] Test Finish
+  2017-08-25 13:42:54 [ main ] Test Start
+  2017-08-25 13:43:00 [ main ] Test Skipped
+  2017-08-25 13:43:01 [ main ] Test Finish
+  2017-08-25 15:03:10 [ main ] Test Start
+  2017-08-25 15:03:11 [ main ] pageName is mainPage
+  2017-08-25 15:03:11 [ main ] Test Failure
+  2017-08-25 15:03:11 [ main ] Test Failure
+  2017-08-25 15:03:11 [ main ] Test Finish
+  2017-08-25 15:03:58 [ main ] Test Start
+  2017-08-25 15:04:03 [ main ] pageName is mainPage
+  2017-08-25 15:04:15 [ main ] pageName is myPage
+  2017-08-25 15:04:35 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 15:04:35 [ main ] pageName is loginPage
+  2017-08-25 15:05:11 [ main ] findElement ByName:登录 failed,NoSuchElement
+  2017-08-25 15:05:11 [ main ] Test Failure
+  2017-08-25 15:05:12 [ main ] Test Skipped
+  2017-08-25 15:05:12 [ main ] Test Skipped
+  2017-08-25 15:05:12 [ main ] Test Finish
+  2017-08-25 15:11:44 [ main ] Test Start
+  2017-08-25 15:11:49 [ main ] pageName is mainPage
+  2017-08-25 15:11:51 [ main ] pageName is myPage
+  2017-08-25 15:12:01 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 15:12:01 [ main ] pageName is loginPage
+  2017-08-25 15:12:21 [ main ] pageName is myPage
+  2017-08-25 15:12:31 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 15:12:31 [ main ] Test Success
+  2017-08-25 15:12:31 [ main ] pageName is mainPage
+  2017-08-25 15:12:41 [ main ] findElement ById:com.neighbor:id/main_bottom_mine_rb failed,NoSuchElement
+  2017-08-25 15:12:41 [ main ] Test Failure
+  2017-08-25 15:12:42 [ main ] Test Skipped
+  2017-08-25 15:12:43 [ main ] Test Finish
+  2017-08-25 15:13:26 [ main ] Test Start
+  2017-08-25 15:13:31 [ main ] pageName is mainPage
+  2017-08-25 15:13:32 [ main ] pageName is myPage
+  2017-08-25 15:13:43 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 15:13:43 [ main ] pageName is loginPage
+  2017-08-25 15:13:58 [ main ] pageName is myPage
+  2017-08-25 15:14:08 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 15:14:08 [ main ] Test Success
+  2017-08-25 15:14:08 [ main ] pageName is mainPage
+  2017-08-25 15:14:18 [ main ] findElement ById:com.neighbor:id/main_bottom_mine_rb failed,NoSuchElement
+  2017-08-25 15:14:18 [ main ] Test Failure
+  2017-08-25 15:14:19 [ main ] pageName is mainPage
+  2017-08-25 15:14:30 [ main ] findElement ById:com.neighbor:id/main_bottom_mine_rb failed,NoSuchElement
+  2017-08-25 15:14:30 [ main ] Test Failure
+  2017-08-25 15:14:31 [ main ] Test Skipped
+  2017-08-25 15:14:31 [ main ] Test Skipped
+  2017-08-25 15:14:31 [ main ] Test Finish
+  2017-08-25 17:42:49 [ main ] Test Start
+  2017-08-25 17:42:53 [ main ] pageName is mainPage
+  2017-08-25 17:42:55 [ main ] pageName is myPage
+  2017-08-25 17:43:05 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:43:05 [ main ] pageName is loginPage
+  2017-08-25 17:43:21 [ main ] pageName is myPage
+  2017-08-25 17:43:31 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:43:31 [ main ] Test Success
+  2017-08-25 17:43:31 [ main ] pageName is mainPage
+  2017-08-25 17:43:41 [ main ] findElement ById:com.neighbor:id/main_bottom_mine_rb failed,NoSuchElement
+  2017-08-25 17:43:41 [ main ] Test Failure
+  2017-08-25 17:43:42 [ main ] pageName is mainPage
+  2017-08-25 17:43:52 [ main ] findElement ById:com.neighbor:id/main_bottom_mine_rb failed,NoSuchElement
+  2017-08-25 17:43:52 [ main ] Test Failure
+  2017-08-25 17:43:53 [ main ] Test Skipped
+  2017-08-25 17:43:53 [ main ] Test Skipped
+  2017-08-25 17:43:54 [ main ] Test Finish
+  2017-08-25 17:44:08 [ main ] Test Start
+  2017-08-25 17:44:13 [ main ] pageName is mainPage
+  2017-08-25 17:44:16 [ main ] pageName is myPage
+  2017-08-25 17:44:26 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:44:26 [ main ] pageName is loginPage
+  2017-08-25 17:47:13 [ main ] pageName is mainPage
+  2017-08-25 17:47:13 [ main ] findElement ById:com.neighbor:id/main_bottom_mine_rb failed,NoSuchElement
+  2017-08-25 17:47:39 [ main ] Test Start
+  2017-08-25 17:47:44 [ main ] pageName is mainPage
+  2017-08-25 17:47:49 [ main ] pageName is myPage
+  2017-08-25 17:48:00 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:48:00 [ main ] pageName is loginPage
+  2017-08-25 17:48:32 [ main ] pageName is myPage
+  2017-08-25 17:48:42 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:49:49 [ main ] Test Start
+  2017-08-25 17:49:53 [ main ] pageName is mainPage
+  2017-08-25 17:49:57 [ main ] pageName is myPage
+  2017-08-25 17:50:07 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:50:07 [ main ] pageName is loginPage
+  2017-08-25 17:50:25 [ main ] pageName is myPage
+  2017-08-25 17:50:36 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:50:36 [ main ] Test Success
+  2017-08-25 17:50:36 [ main ] pageName is mainPage
+  2017-08-25 17:50:46 [ main ] findElement ById:com.neighbor:id/main_bottom_mine_rb failed,NoSuchElement
+  2017-08-25 17:50:46 [ main ] Test Failure
+  2017-08-25 17:50:47 [ main ] pageName is mainPage
+  2017-08-25 17:50:58 [ main ] findElement ById:com.neighbor:id/main_bottom_mine_rb failed,NoSuchElement
+  2017-08-25 17:50:58 [ main ] Test Failure
+  2017-08-25 17:50:59 [ main ] Test Skipped
+  2017-08-25 17:50:59 [ main ] Test Skipped
+  2017-08-25 17:51:00 [ main ] Test Finish
+  2017-08-25 17:54:49 [ main ] Test Start
+  2017-08-25 17:54:53 [ main ] pageName is mainPage
+  2017-08-25 17:55:07 [ main ] pageName is myPage
+  2017-08-25 17:55:18 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:55:18 [ main ] pageName is loginPage
+  2017-08-25 17:55:36 [ main ] pageName is myPage
+  2017-08-25 17:55:46 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:55:46 [ main ] Test Success
+  2017-08-25 17:55:46 [ main ] pageName is mainPage
+  2017-08-25 17:55:57 [ main ] findElement ById:com.neighbor:id/main_bottom_mine_rb failed,NoSuchElement
+  2017-08-25 17:55:57 [ main ] Test Skipped
+  2017-08-25 17:55:57 [ main ] Test Skipped
+  2017-08-25 17:55:57 [ main ] Test Skipped
+  2017-08-25 17:55:57 [ main ] Test Skipped
+  2017-08-25 17:55:58 [ main ] Test Finish
+  2017-08-25 17:57:48 [ main ] Test Start
+  2017-08-25 17:57:53 [ main ] pageName is mainPage
+  2017-08-25 17:57:55 [ main ] pageName is myPage
+  2017-08-25 17:58:05 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:58:05 [ main ] pageName is loginPage
+  2017-08-25 17:58:23 [ main ] pageName is myPage
+  2017-08-25 17:58:33 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:58:33 [ main ] Test Success
+  2017-08-25 17:58:33 [ main ] pageName is myPage
+  2017-08-25 17:58:44 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:58:44 [ main ] pageName is loginPage
+  2017-08-25 17:59:02 [ main ] pageName is myPage
+  2017-08-25 17:59:13 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:59:13 [ main ] Test Success
+  2017-08-25 17:59:13 [ main ] pageName is myPage
+  2017-08-25 17:59:23 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:59:23 [ main ] pageName is loginPage
+  2017-08-25 17:59:41 [ main ] pageName is myPage
+  2017-08-25 17:59:51 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 17:59:51 [ main ] Test Success
+  2017-08-25 17:59:51 [ main ] pageName is myPage
+  2017-08-25 18:00:02 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 18:00:02 [ main ] pageName is loginPage
+  2017-08-25 18:00:23 [ main ] pageName is myPage
+  2017-08-25 18:00:33 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 18:00:33 [ main ] Test Failure
+  2017-08-25 18:00:35 [ main ] Test Skipped
+  2017-08-25 18:00:36 [ main ] Test Finish
+  2017-08-25 18:14:18 [ main ] Test Start
+  2017-08-25 18:14:23 [ main ] pageName is mainPage
+  2017-08-25 18:14:27 [ main ] pageName is loginPage
+  2017-08-25 18:14:38 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-25 18:14:38 [ main ] pageName is myPage
+  2017-08-25 18:14:38 [ main ] pageName is setUpPage
+  2017-08-25 18:14:49 [ main ] findElement ByName:退出登录 failed,NoSuchElement
+  2017-08-25 18:14:49 [ main ] Test Failure
+  2017-08-25 18:14:50 [ main ] pageName is loginPage
+  2017-08-25 18:15:00 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-25 18:15:00 [ main ] pageName is myPage
+  2017-08-25 18:15:10 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 18:15:10 [ main ] Test Failure
+  2017-08-25 18:15:11 [ main ] pageName is loginPage
+  2017-08-25 18:15:21 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-25 18:15:21 [ main ] pageName is myPage
+  2017-08-25 18:15:32 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 18:15:32 [ main ] Test Failure
+  2017-08-25 18:15:33 [ main ] Test Skipped
+  2017-08-25 18:15:33 [ main ] Test Skipped
+  2017-08-25 18:15:34 [ main ] Test Finish
+  2017-08-25 18:16:00 [ main ] Test Start
+  2017-08-25 18:16:05 [ main ] pageName is mainPage
+  2017-08-25 18:16:09 [ main ] pageName is loginPage
+  2017-08-25 18:16:19 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-25 18:16:19 [ main ] pageName is myPage
+  2017-08-25 18:16:20 [ main ] pageName is setUpPage
+  2017-08-25 18:16:30 [ main ] findElement ByName:退出登录 failed,NoSuchElement
+  2017-08-25 18:16:30 [ main ] Test Failure
+  2017-08-25 18:16:31 [ main ] pageName is loginPage
+  2017-08-25 18:16:42 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-25 18:16:42 [ main ] pageName is myPage
+  2017-08-25 18:16:52 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 18:16:52 [ main ] Test Failure
+  2017-08-25 18:16:53 [ main ] pageName is loginPage
+  2017-08-25 18:17:04 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-25 18:17:04 [ main ] pageName is myPage
+  2017-08-25 18:17:14 [ main ] findElement ById:com.neighbor:id/iv_left4mine failed,NoSuchElement
+  2017-08-25 18:17:14 [ main ] Test Failure
+  2017-08-25 18:17:15 [ main ] Test Skipped
+  2017-08-25 18:17:15 [ main ] Test Skipped
+  2017-08-25 18:17:16 [ main ] Test Finish
+  2017-08-25 18:18:47 [ main ] Test Start
+  2017-08-25 18:18:51 [ main ] pageName is mainPage
+  2017-08-25 18:19:14 [ main ] pageName is loginPage
+  2017-08-25 18:19:24 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-25 18:19:24 [ main ] pageName is myPage
+  2017-08-25 18:19:25 [ main ] pageName is setUpPage
+  2017-08-25 18:19:29 [ main ] pageName is loginPage
+  2017-08-25 18:19:48 [ main ] pageName is loginPage
+  2017-08-25 18:19:48 [ main ] Test Success
+  2017-08-25 18:19:48 [ main ] pageName is loginPage
+  2017-08-25 18:19:48 [ main ] pageName is loginPage
+  2017-08-25 18:20:07 [ main ] pageName is loginPage
+  2017-08-25 18:20:07 [ main ] Test Success
+  2017-08-25 18:20:07 [ main ] pageName is loginPage
+  2017-08-25 18:20:07 [ main ] pageName is loginPage
+  2017-08-25 18:20:28 [ main ] pageName is loginPage
+  2017-08-25 18:20:28 [ main ] Test Success
+  2017-08-25 18:20:28 [ main ] pageName is loginPage
+  2017-08-25 18:20:28 [ main ] pageName is loginPage
+  2017-08-25 18:20:49 [ main ] pageName is loginPage
+  2017-08-25 18:20:59 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-25 18:20:59 [ main ] Test Success
+  2017-08-25 18:20:59 [ main ] Test Skipped
+  2017-08-25 18:21:00 [ main ] Test Finish
+  2017-08-25 18:26:21 [ main ] Test Start
+  2017-08-25 18:26:26 [ main ] pageName is mainPage
+  2017-08-25 18:26:30 [ main ] pageName is loginPage
+  2017-08-25 18:26:41 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-25 18:26:41 [ main ] pageName is myPage
+  2017-08-25 18:26:41 [ main ] pageName is setUpPage
+  2017-08-25 18:26:44 [ main ] pageName is loginPage
+  2017-08-25 18:27:03 [ main ] pageName is loginPage
+  2017-08-25 18:27:03 [ main ] Test Success
+  2017-08-25 18:27:03 [ main ] pageName is loginPage
+  2017-08-25 18:27:03 [ main ] pageName is loginPage
+  2017-08-25 18:27:22 [ main ] pageName is loginPage
+  2017-08-25 18:27:22 [ main ] Test Success
+  2017-08-25 18:27:22 [ main ] pageName is loginPage
+  2017-08-25 18:27:23 [ main ] pageName is loginPage
+  2017-08-25 18:27:40 [ main ] pageName is loginPage
+  2017-08-25 18:27:41 [ main ] Test Success
+  2017-08-25 18:27:41 [ main ] pageName is loginPage
+  2017-08-25 18:27:41 [ main ] pageName is loginPage
+  2017-08-25 18:28:02 [ main ] pageName is loginPage
+  2017-08-25 18:28:12 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-25 18:28:12 [ main ] Test Success
+  2017-08-25 18:28:12 [ main ] Test Failure
+  2017-08-25 18:28:15 [ main ] Test Finish
+  2017-08-25 18:29:48 [ main ] Test Start
+  2017-08-25 18:29:53 [ main ] pageName is mainPage
+  2017-08-25 18:29:57 [ main ] pageName is loginPage
+  2017-08-25 18:30:07 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-25 18:30:07 [ main ] pageName is myPage
+  2017-08-25 18:30:08 [ main ] pageName is setUpPage
+  2017-08-25 18:30:11 [ main ] pageName is loginPage
+  2017-08-25 18:30:30 [ main ] pageName is loginPage
+  2017-08-25 18:30:30 [ main ] Test Success
+  2017-08-25 18:30:30 [ main ] pageName is loginPage
+  2017-08-25 18:30:30 [ main ] pageName is loginPage
+  2017-08-25 18:30:50 [ main ] pageName is loginPage
+  2017-08-25 18:30:50 [ main ] Test Success
+  2017-08-25 18:30:50 [ main ] pageName is loginPage
+  2017-08-25 18:30:50 [ main ] pageName is loginPage
+  2017-08-25 18:31:07 [ main ] pageName is loginPage
+  2017-08-25 18:31:08 [ main ] Test Success
+  2017-08-25 18:31:08 [ main ] pageName is loginPage
+  2017-08-25 18:31:08 [ main ] pageName is loginPage
+  2017-08-25 18:31:28 [ main ] pageName is loginPage
+  2017-08-25 18:31:38 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-25 18:31:38 [ main ] Test Success
+  2017-08-25 18:31:39 [ main ] pageName is mainPage
+  2017-08-25 18:31:40 [ main ] pageName is lifePage
+  2017-08-25 18:31:42 [ main ] pageName is propertyPayPage
+  2017-08-25 18:34:17 [ main ] Test Start
+  2017-08-25 18:34:22 [ main ] pageName is mainPage
+  2017-08-25 18:34:27 [ main ] pageName is loginPage
+  2017-08-25 18:34:37 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-25 18:34:37 [ main ] pageName is myPage
+  2017-08-25 18:34:38 [ main ] pageName is setUpPage
+  2017-08-25 18:34:41 [ main ] pageName is loginPage
+  2017-08-25 18:35:00 [ main ] pageName is loginPage
+  2017-08-25 18:35:00 [ main ] Test Success
+  2017-08-25 18:35:00 [ main ] pageName is loginPage
+  2017-08-25 18:35:00 [ main ] pageName is loginPage
+  2017-08-25 18:35:19 [ main ] pageName is loginPage
+  2017-08-25 18:35:19 [ main ] Test Success
+  2017-08-25 18:35:19 [ main ] pageName is loginPage
+  2017-08-25 18:35:19 [ main ] pageName is loginPage
+  2017-08-25 18:35:38 [ main ] pageName is loginPage
+  2017-08-25 18:35:38 [ main ] Test Success
+  2017-08-25 18:35:38 [ main ] pageName is loginPage
+  2017-08-25 18:35:38 [ main ] pageName is loginPage
+  2017-08-25 18:35:59 [ main ] pageName is loginPage
+  2017-08-25 18:36:09 [ main ] findElement ByName:登 录 failed,NoSuchElement
+  2017-08-25 18:36:09 [ main ] Test Success
+  2017-08-25 18:36:10 [ main ] pageName is mainPage
+  2017-08-25 18:36:10 [ main ] pageName is lifePage
+  2017-08-25 18:36:12 [ main ] pageName is propertyPayPage
+  2017-08-25 18:36:19 [ main ] Test Success
+  2017-08-25 18:36:20 [ main ] Test Finish
+  

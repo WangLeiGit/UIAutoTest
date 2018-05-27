@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1">
+	<parameter name="apkName" value=""/>
+	<parameter name="platformName" value="Android"/>
+	<parameter name="platformVersion" value="4.4"/>
+	<parameter name="deviceName" value="F8UDU15526003170"/>
+	<parameter name="appPackage" value="com.neighbor"/>
+	<parameter name="appActivity" value=".activity.LoadingActivity"/>
+	<test name="test" preserve-order="true">
+		<classes>
+		  <class name="com.appium.testcase.LoginTest"/>
+		  <class name="com.appium.testcase.LifePropertyPayManageTest"/>
+		</classes>
+	</test>
+	
+</suite>

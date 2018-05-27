@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1">
+	<parameter name="browserType" value="chrome"/>
+	<parameter name="browserDriverUrl" value="D:\work\workplace\webUITestPro\browserDriver\chromedriver.exe"/>
+	<parameter name="waitTime" value="20"/>
+	<parameter name="url" value="http://58.42.231.231:59193/zmkmglYl/index.jsp"/>
+	<test name="test" preserve-order="true">
+		<classes>
+		  <class name="com.web.testcase.LoginTest"/>
+		 <!-- <class name="com.web.testcase.UpdatePwdTest"/> -->
+		   <class name="com.web.testcase.ItemManageTest">
+		    <methods>
+			  <include name="addComunity"/>
+			  <include name="addBuilding"/>
+			  <include name="addUnit"/>
+			  <include name="addDoor"/>
+			</methods>
+		  </class> 
+		  <class name="com.web.testcase.PropertyPayManageTest"/>
+		</classes>
+	</test>
+	
+</suite>

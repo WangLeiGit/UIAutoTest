@@ -1,0 +1,12 @@
+2017-11-02 21:07:01 [ main ] Test Start
+  2017-11-02 21:07:08 [ main ] pageName is loginPage
+  2017-11-02 21:07:08 [ main ] pageName is loginPage
+  2017-11-02 21:07:29 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-11-02 21:07:49 [ main ] findElement ById:headLogin failed,NoSuchElement
+  2017-11-02 21:07:49 [ main ] Test Failure
+  2017-11-02 21:07:51 [ main ] pageName is mainPage
+  2017-11-02 21:08:11 [ main ] findElement ByXpath:/html/body/div[2]/div/div[1]/div failed,NoSuchElement
+  2017-11-02 21:08:11 [ main ] Test Failure
+  2017-11-02 21:08:11 [ main ] Test Failure
+  2017-11-02 21:08:13 [ main ] Test Finish
+  

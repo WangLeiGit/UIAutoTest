@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TestNG" default="testoutput" basedir=".">
+
+	<property name="srcdir" location="${basedir}/src" />
+	<property name="libdir" location="${basedir}/lib" />
+	<property name="testng.output.dir" location="${basedir}/test-output" />
+	<property name="testng.file" value="src/webtest/java/com/web/testcase/testSuite1.xml" />
+	<property name="log4j.properties" location="${basedir}/log4j.properties" />
+
+	<path id="classpath">
+		<fileset dir="${libdir}" includes="*jar" />
+		<fileset dir="${libdir}" includes="*zip" />
+		<pathelement location="${basedir}/bin" />
+	</path>
+
+	<!-- Define <testng> task -->
+	<taskdef name="testng" classname="org.testng.TestNGAntTask">
+		<classpath>
+			<pathelement location="./lib/testng-6.8.5.jar"/>
+		</classpath>
+	</taskdef>
+
+	<!-- Before compile,delete the previous folder -->
+	<target name="clean">
+		<delete dir="${basedir}/bin" />
+	</target>
+
+	<!--编译完后复制log4j配置文件到bin/目录下，因为编译前会clean，删除该配置文件，编译不会生成该配置文件-->
+	<!--page.xml同上-->
+	<target name="copyfile" depends="clean">
+		<copy file="${log4j.properties}" todir="${basedir}/bin" overwrite="true" />
+		<copy todir="${basedir}/bin/com/etyero/object" overwrite="true">
+					<fileset dir="${srcdir}/main/java/com/etyero/object">
+						<include name="*.xml" />
+					</fileset>
+		</copy>
+		<copy file="${srcdir}/main/java/myBatis.xml" todir="${basedir}/bin" overwrite="true" />
+		<copy todir="${basedir}/bin/com/web/mapper" overwrite="true">
+			<fileset dir="${srcdir}/webtest/java/com/web/mapper">
+				<include name="*.xml" />
+			</fileset>
+		</copy>
+		<copy todir="${basedir}/bin/com/appium/mapper" overwrite="true">
+				<fileset dir="${srcdir}/apptest/java/com/appium/mapper">
+					<include name="*.xml" />
+				</fileset>
+		</copy>
+	</target>
+
+	<!-- Compile file in 'srcdir' to 'destdir' -->
+	<target name="compile" depends="copyfile">
+		<mkdir dir="${basedir}/bin" />
+		<javac srcdir="${srcdir}" encoding="UTF-8" destdir="${basedir}/bin" classpathref="classpath" includeantruntime="off" debug="on" debuglevel="lines,vars,source" />
+	</target>
+
+	<!-- use testng.xml to run the test -->
+	<target name="runtest" depends="compile">
+		<testng outputdir="${testng.output.dir}" classpathref="classpath">
+			<xmlfileset dir="${basedir}" includes="${testng.file}"/>
+			<!-- 解决生成的测试报告乱码问题 -->
+			<jvmarg value="-Dfile.encoding=UTF-8"/>
+		</testng>
+	</target>
+
+	<!-- Use xslt to modify the report  -->
+	<target name= "testoutput" depends="runtest" >
+		<xslt in= "${testng.output.dir}/testng-results.xml" style= "${testng.output.dir}/testng-results.xsl"
+          out= "${testng.output.dir}/indexAnt.html " >
+			<param name= "testNgXslt.outputDir" expression= "${basedir}/test-output/" />
+			<param name="testNgXslt.showRuntimeTotals" expression="true" />
+			<classpath refid= "classpath" />
+		</xslt>
+	</target>
+
+</project>

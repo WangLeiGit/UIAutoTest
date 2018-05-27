@@ -1,0 +1,41 @@
+2017-09-27 21:20:25 [ main ] Test Start
+  2017-09-27 21:20:25 [ main ] Test Skipped
+  2017-09-27 21:20:25 [ main ] Test Skipped
+  2017-09-27 21:20:25 [ main ] Test Skipped
+  2017-09-27 21:20:25 [ main ] Test Skipped
+  2017-09-27 21:20:25 [ main ] Test Skipped
+  2017-09-27 21:20:25 [ main ] Test Skipped
+  2017-09-27 21:20:25 [ main ] Test Finish
+  2017-09-27 21:24:47 [ main ] Test Start
+  2017-09-27 21:24:56 [ main ] pageName is loginPage
+  2017-09-27 21:24:56 [ main ] pageName is loginPage
+  2017-09-27 21:25:16 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-09-27 21:25:17 [ main ] pageName is userPage
+  2017-09-27 21:25:19 [ main ] Test Success
+  2017-09-27 21:25:19 [ main ] pageName is mainPage
+  2017-09-27 21:25:19 [ main ] pageName is itemManagePage
+  2017-09-27 21:25:20 [ main ] pageName is editPage
+  2017-09-27 21:25:25 [ main ] Test Success
+  2017-09-27 21:25:25 [ main ] pageName is mainPage
+  2017-09-27 21:25:25 [ main ] pageName is itemManagePage
+  2017-09-27 21:25:26 [ main ] pageName is item_Partition_ManagePage
+  2017-09-27 21:25:26 [ main ] pageName is editPage
+  2017-09-27 21:25:30 [ main ] Test Success
+  2017-09-27 21:25:30 [ main ] pageName is mainPage
+  2017-09-27 21:25:30 [ main ] pageName is itemManagePage
+  2017-09-27 21:25:31 [ main ] pageName is item_Partition_ManagePage
+  2017-09-27 21:25:31 [ main ] pageName is item_Partition_building_ManagePage
+  2017-09-27 21:25:32 [ main ] pageName is editPage
+  2017-09-27 21:25:36 [ main ] Test Success
+  2017-09-27 21:25:36 [ main ] pageName is mainPage
+  2017-09-27 21:25:36 [ main ] pageName is itemManagePage
+  2017-09-27 21:25:37 [ main ] pageName is item_Partition_ManagePage
+  2017-09-27 21:25:37 [ main ] pageName is item_Partition_building_ManagePage
+  2017-09-27 21:25:38 [ main ] pageName is item_Partition_building_unit_ManagePage
+  2017-09-27 21:25:38 [ main ] pageName is editPage
+  2017-09-27 21:25:41 [ main ] Test Success
+  2017-09-27 21:25:46 [ main ] pageName is mainPage
+  2017-09-27 21:25:51 [ main ] pageName is propertyPayManagePage
+  2017-09-27 21:25:57 [ main ] Test Success
+  2017-09-27 21:25:59 [ main ] Test Finish
+  

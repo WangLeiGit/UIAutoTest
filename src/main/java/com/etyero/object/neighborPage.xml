@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<!-- 主页 -->
+	<page pageName="mainPage">
+		<locator type="id" timeOut="10" value="com.neighbor:id/main_bottom_homepage_rb">首页</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/main_bottom_community_rb">社区</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/main_bottom_center_content_img">开门</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/main_bottom_life_rb">生活</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/main_bottom_mine_rb">我的</locator>
+	</page>
+	<!--生活主页-->
+	<page pageName="lifePage">
+		<locator type="name" timeOut="10" value="头条资讯">头条资讯</locator>
+		<locator type="name" timeOut="10" value="报事报修">报事报修</locator>
+		<locator type="name" timeOut="10" value="交通路况">交通路况</locator>
+		<locator type="name" timeOut="10" value="开门">开门</locator>
+		<locator type="name" timeOut="10" value="开门有礼">开门有礼</locator>
+		<locator type="name" timeOut="10" value="社区">社区</locator>
+		<locator type="name" timeOut="10" value="服务到家">服务到家</locator>
+		<locator type="name" timeOut="10" value="物业缴费">物业缴费</locator>
+		<locator type="name" timeOut="10" value="公共服务电话">公共服务电话</locator>
+		<locator type="name" timeOut="10" value="邻里互助">邻里互助</locator>
+		<locator type="name" timeOut="10" value="门禁对讲">门禁对讲</locator>
+		<locator type="name" timeOut="10" value="门禁监控">门禁监控</locator>
+	</page>
+	<!--物业缴费-->
+	<page pageName="propertyPayPage">
+		<locator type="id" timeOut="10" value="com.neighbor:id/tv_address">选择缴费房屋</locator>
+		<locator type="name" timeOut="10" value="进入缴费">进入缴费</locator>
+		<locator type="name" timeOut="10" value="生成付款单">生成付款单</locator>
+	</page>
+	<!--登录页-->
+	<page pageName="loginPage">
+		<locator type="id" timeOut="10" value="com.neighbor:id/et_phone">手机号码</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/et_password">密码</locator>
+		<locator type="className" timeOut="10" value="android.widget.TextView">登录</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/tv_register">注册</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/tv_frozen">冻结/解冻</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/tv_forget_pwd">忘记密码</locator>
+	</page>
+	<!--冻结/解冻页-->
+	<page pageName="freezePage">
+	    <!--账号输入部分-->
+		<locator type="id" timeOut="10" value="com.neighbor:id/accountvercation_edt">手机号码</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/iv_left00">返回上一页</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/tv_right">下一页</locator>
+		<!--安全校验部分-->
+		<locator type="id" timeOut="10" value="com.neighbor:id/safe_verication_id_btn">验证身份证号</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/safe_verication_qas_btn">验证密保问题</locator>
+	    <!--安全校验部分-->
+		<locator type="id" timeOut="10" value="com.neighbor:id/idvercation_edt">输入身份证号</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/tv_right">提交</locator>
+		
+	</page>
+	<!--我的页-->
+	<page pageName="myPage">
+		<locator type="id" timeOut="10" value="com.neighbor:id/iv_edit">资料编辑</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/iv_left4mine">设置</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/iv_right4mine">消息</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/rl_jf">我的积分</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/rl_ts">缴费记录</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/rl_jwxy">我的活动</locator>
+		<locator type="id" timeOut="10" value="com.neighbor:id/rl_wdjy">我的建议</locator>
+	</page>
+	<!--设置页-->
+	<page pageName="setUpPage">
+		<locator type="name" timeOut="10" value="退出登录">退出登录</locator>
+	</page>
+	
+</map>

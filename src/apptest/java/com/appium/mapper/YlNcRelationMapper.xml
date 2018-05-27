@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.appium.mapper.YlNcRelationMapper">
+    <select id="selectYlNcRelations" parameterType="String" 
+        resultType="com.appium.entity.YlNcRelation">
+        select * from yl_nc_relation where 1=1
+		
+		<if test="docno != '' and docno != null">  
+          and docno=#{docno,jdbcType=VARCHAR}  
+        </if>  
+		<if test="user_id != '' and user_id != null">  
+          and user_id=#{user_id,jdbcType=VARCHAR}  
+        </if> 
+    </select>
+	
+	<select id="countYlNcRelation" parameterType="String" 
+        resultType="Integer">
+        select count(id) from yl_nc_relation where user_id=#{user_id,jdbcType=VARCHAR}  
+    </select>
+	
+	<!--<update id="updateSegments" parameterType="com.etyero.entity.Segments">
+        update Segments set userName=#{userName},userAge=#{userAge},userAddress=#{userAddress} where id=#{id}
+    </update>-->
+    
+    <!-- <delete id="deleteBuildings">
+        delete from buildings where name=#{name,jdbcType=VARCHAR}
+    </delete> -->
+</mapper>

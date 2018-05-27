@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <parameter name="browserDriverUrl" value="E:\eclipseWorkSpace\webUITestPro\browserDriver\chromedriver.exe"/>
+  <parameter name="waitTime" value="20"/>
+  <parameter name="url" value="http://58.42.231.231:59193/zmkmglYl/index.jsp"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="test(failed)">
+    <classes>
+      <class name="com.web.testcase.LoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.web.testcase.LoginTest -->
+      <class name="com.web.testcase.ItemManageTest">
+        <methods>
+          <include name="addComunity"/>
+          <include name="addUnit"/>
+          <include name="addDoor"/>
+          <include name="addBuilding"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.web.testcase.ItemManageTest -->
+      <class name="com.web.testcase.PropertyPayManageTest">
+        <methods>
+          <include name="searchPayMent"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.web.testcase.PropertyPayManageTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

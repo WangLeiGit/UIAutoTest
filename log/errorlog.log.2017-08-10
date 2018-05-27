@@ -1,0 +1,39 @@
+2017-08-10 09:38:29 [ main ] Test Failure
+  2017-08-10 09:38:29 [ main ] Test Failure
+  2017-08-10 09:41:57 [ main ] Test Failure
+  2017-08-10 09:41:57 [ main ] Test Failure
+  2017-08-10 09:43:38 [ main ] Test Failure
+  2017-08-10 09:43:38 [ main ] Test Failure
+  2017-08-10 09:49:22 [ main ] Test Failure
+  2017-08-10 09:49:22 [ main ] Test Failure
+  2017-08-10 10:12:09 [ main ] class com.etyero.testcase.TestLog4j>>errorInfo...
+  2017-08-10 10:12:31 [ main ] class com.etyero.testcase.TestLog4j>>errorInfo...
+  2017-08-10 10:37:01 [ main ] can't find /E:/eclipseWorkSpace/webUITestPro/bin/com/etyero/object/page.xml
+  2017-08-10 10:37:01 [ main ] can't find /E:/eclipseWorkSpace/webUITestPro/bin/com/etyero/object/page.xml
+  2017-08-10 10:37:01 [ main ] Test Failure
+  2017-08-10 10:37:01 [ main ] can't find /E:/eclipseWorkSpace/webUITestPro/bin/com/etyero/object/page.xml
+  2017-08-10 10:37:01 [ main ] can't find /E:/eclipseWorkSpace/webUITestPro/bin/com/etyero/object/page.xml
+  2017-08-10 10:37:01 [ main ] Test Failure
+  2017-08-10 10:37:02 [ main ] can't find /E:/eclipseWorkSpace/webUITestPro/bin/com/etyero/object/page.xml
+  2017-08-10 10:37:02 [ main ] can't find /E:/eclipseWorkSpace/webUITestPro/bin/com/etyero/object/page.xml
+  2017-08-10 10:37:02 [ main ] Test Failure
+  2017-08-10 10:37:02 [ main ] Test Skipped
+  2017-08-10 10:37:02 [ main ] Test Skipped
+  2017-08-10 10:37:02 [ main ] Test Skipped
+  2017-08-10 10:40:02 [ main ] can't find /E:/eclipseWorkSpace/webUITestPro/bin/com/etyero/object/page.xml
+  2017-08-10 10:40:02 [ main ] can't find /E:/eclipseWorkSpace/webUITestPro/bin/com/etyero/object/page.xml
+  2017-08-10 10:40:02 [ main ] Test Failure
+  2017-08-10 10:40:03 [ main ] can't find /E:/eclipseWorkSpace/webUITestPro/bin/com/etyero/object/page.xml
+  2017-08-10 10:40:03 [ main ] can't find /E:/eclipseWorkSpace/webUITestPro/bin/com/etyero/object/page.xml
+  2017-08-10 10:40:03 [ main ] Test Failure
+  2017-08-10 10:40:03 [ main ] can't find /E:/eclipseWorkSpace/webUITestPro/bin/com/etyero/object/page.xml
+  2017-08-10 10:40:03 [ main ] can't find /E:/eclipseWorkSpace/webUITestPro/bin/com/etyero/object/page.xml
+  2017-08-10 10:40:03 [ main ] Test Failure
+  2017-08-10 10:40:04 [ main ] Test Skipped
+  2017-08-10 10:40:04 [ main ] Test Skipped
+  2017-08-10 10:40:04 [ main ] Test Skipped
+  2017-08-10 10:49:39 [ main ] Test Failure
+  2017-08-10 10:52:23 [ main ] class com.etyero.testcase.TestLog4j>>errorInfo...
+  2017-08-10 18:40:16 [ main ] Test Skipped
+  2017-08-10 18:41:41 [ main ] Test Failure
+  

@@ -1,0 +1,19 @@
+2017-09-29 14:56:38 [ main ] Test Start
+  2017-09-29 14:56:44 [ main ] pageName is loginPage
+  2017-09-29 14:56:44 [ main ] pageName is loginPage
+  2017-09-29 14:57:04 [ main ] findElement ById:dialog_tijiao failed,NoSuchElement
+  2017-09-29 14:57:05 [ main ] pageName is userPage
+  2017-09-29 14:57:06 [ main ] Test Success
+  2017-09-29 14:57:06 [ main ] pageName is mainPage
+  2017-09-29 14:57:07 [ main ] pageName is itemManagePage
+  2017-09-29 14:57:07 [ main ] pageName is editPage
+  2017-09-29 14:57:09 [ main ] Test Failure
+  2017-09-29 14:57:09 [ main ] pageName is mainPage
+  2017-09-29 14:57:29 [ main ] findElement ByXpath:/html/body/div[2]/div/div[1]/div failed,NoSuchElement
+  2017-09-29 14:57:29 [ main ] Test Failure
+  2017-09-29 14:57:30 [ main ] pageName is mainPage
+  2017-09-29 14:57:50 [ main ] findElement ByXpath:/html/body/div[2]/div/div[1]/div failed,NoSuchElement
+  2017-09-29 14:57:50 [ main ] Test Failure
+  2017-09-29 14:57:50 [ main ] Test Failure
+  2017-09-29 14:57:52 [ main ] Test Finish
+  
